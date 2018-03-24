@@ -11,7 +11,7 @@
         }
     ],
     "autoload": {
-        "files": ["src/Log_Autoload.php"]
+       //"files": ["src/Log_Autoload.php"]
     }
 }
 
