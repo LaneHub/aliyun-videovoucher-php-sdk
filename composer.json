@@ -9,9 +9,6 @@
             "name": "yy",
             "email": "yy@weiheinc.com"
         }
-    ],
-    "autoload": {
-       //"files": ["src/Log_Autoload.php"]
-    }
+    ]
 }
 
