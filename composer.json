@@ -9,11 +9,6 @@
             "name": "yy",
             "email": "yy@weiheinc.com"
         }
-    ],
-    "autoload": {
-        "psr-4":{
-            "Video\\":"src/"
-        }
-    }
+    ]
 }
 
