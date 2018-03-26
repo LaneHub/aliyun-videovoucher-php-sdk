@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="346257e0-c6a1-4ed5-ae07-79fd91c8fb47" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/AcsRequest.php" afterPath="$PROJECT_DIR$/src/Core/AcsRequest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/AcsResponse.php" afterPath="$PROJECT_DIR$/src/Core/AcsResponse.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/Auth/AbstractCredential.php" afterPath="$PROJECT_DIR$/src/Core/Auth/AbstractCredential.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/Auth/Credential.php" afterPath="$PROJECT_DIR$/src/Core/Auth/Credential.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/Auth/EcsRamRoleCredential.php" afterPath="$PROJECT_DIR$/src/Core/Auth/EcsRamRoleCredential.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/Auth/EcsRamRoleService.php" afterPath="$PROJECT_DIR$/src/Core/Auth/EcsRamRoleService.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/Auth/ISigner.php" afterPath="$PROJECT_DIR$/src/Core/Auth/ISigner.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/Auth/RamRoleArnCredential.php" afterPath="$PROJECT_DIR$/src/Core/Auth/RamRoleArnCredential.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/Auth/RamRoleArnService.php" afterPath="$PROJECT_DIR$/src/Core/Auth/RamRoleArnService.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/Auth/ShaHmac1Signer.php" afterPath="$PROJECT_DIR$/src/Core/Auth/ShaHmac1Signer.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/Auth/ShaHmac256Signer.php" afterPath="$PROJECT_DIR$/src/Core/Auth/ShaHmac256Signer.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/Autoloader/Autoloader.php" afterPath="$PROJECT_DIR$/src/Core/Autoloader/Autoloader.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/ChangeLog.txt" afterPath="$PROJECT_DIR$/src/Core/ChangeLog.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/Config.php" afterPath="$PROJECT_DIR$/src/Core/Config.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/DefaultAcsClient.php" afterPath="$PROJECT_DIR$/src/Core/DefaultAcsClient.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/Exception/ClientException.php" afterPath="$PROJECT_DIR$/src/Core/Exception/ClientException.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/Exception/ServerException.php" afterPath="$PROJECT_DIR$/src/Core/Exception/ServerException.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/Http/HttpHelper.php" afterPath="$PROJECT_DIR$/src/Core/Http/HttpHelper.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/Http/HttpResponse.php" afterPath="$PROJECT_DIR$/src/Core/Http/HttpResponse.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/IAcsClient.php" afterPath="$PROJECT_DIR$/src/Core/IAcsClient.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/Profile/DefaultProfile.php" afterPath="$PROJECT_DIR$/src/Core/Profile/DefaultProfile.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/Profile/IClientProfile.php" afterPath="$PROJECT_DIR$/src/Core/Profile/IClientProfile.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/Regions/Endpoint.php" afterPath="$PROJECT_DIR$/src/Core/Regions/Endpoint.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/Regions/EndpointConfig.php" afterPath="$PROJECT_DIR$/src/Core/Regions/EndpointConfig.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/Regions/EndpointProvider.php" afterPath="$PROJECT_DIR$/src/Core/Regions/EndpointProvider.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/Regions/LocationService.php" afterPath="$PROJECT_DIR$/src/Core/Regions/LocationService.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/Regions/ProductDomain.php" afterPath="$PROJECT_DIR$/src/Core/Regions/ProductDomain.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/Regions/endpoints.xml" afterPath="$PROJECT_DIR$/src/Core/Regions/endpoints.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/RoaAcsRequest.php" afterPath="$PROJECT_DIR$/src/Core/RoaAcsRequest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/RpcAcsRequest.php" afterPath="$PROJECT_DIR$/src/Core/RpcAcsRequest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/UnitTest/Auth/CredentialTest.php" afterPath="$PROJECT_DIR$/src/Core/UnitTest/Auth/CredentialTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/UnitTest/Auth/ShaHmac1SignerTest.php" afterPath="$PROJECT_DIR$/src/Core/UnitTest/Auth/ShaHmac1SignerTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/UnitTest/Auth/ShaHmac256SignerTest.php" afterPath="$PROJECT_DIR$/src/Core/UnitTest/Auth/ShaHmac256SignerTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/UnitTest/BaseTest.php" afterPath="$PROJECT_DIR$/src/Core/UnitTest/BaseTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/UnitTest/BatchCompute/ListImagesRequest.php" afterPath="$PROJECT_DIR$/src/Core/UnitTest/BatchCompute/ListImagesRequest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/UnitTest/DefaultAcsClientTest.php" afterPath="$PROJECT_DIR$/src/Core/UnitTest/DefaultAcsClientTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/UnitTest/Ecs/Rquest/DescribeRegionsRequest.php" afterPath="$PROJECT_DIR$/src/Core/UnitTest/Ecs/Rquest/DescribeRegionsRequest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/UnitTest/Ft/InteTest.php" afterPath="$PROJECT_DIR$/src/Core/UnitTest/Ft/InteTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/UnitTest/Ft/TestRoaApiRequest.php" afterPath="$PROJECT_DIR$/src/Core/UnitTest/Ft/TestRoaApiRequest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/UnitTest/Ft/TestRpcApiRequest.php" afterPath="$PROJECT_DIR$/src/Core/UnitTest/Ft/TestRpcApiRequest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/UnitTest/Http/HttpHelperTest.php" afterPath="$PROJECT_DIR$/src/Core/UnitTest/Http/HttpHelperTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/UnitTest/Profile/DefaultProfileTest.php" afterPath="$PROJECT_DIR$/src/Core/UnitTest/Profile/DefaultProfileTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/UnitTest/Regions/EndPointByLocationTest.php" afterPath="$PROJECT_DIR$/src/Core/UnitTest/Regions/EndPointByLocationTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/aliyun-php-sdk-core/UnitTest/Regions/EndpointProviderTest.php" afterPath="$PROJECT_DIR$/src/Core/UnitTest/Regions/EndpointProviderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/src/Core/Auth/AbstractCredential.php" />
+        <option value="$PROJECT_DIR$/src/Core/Auth/Credential.php" />
+        <option value="$PROJECT_DIR$/src/Core/Auth/EcsRamRoleCredential.php" />
+        <option value="$PROJECT_DIR$/src/Core/Auth/ISigner.php" />
+        <option value="$PROJECT_DIR$/src/Core/Auth/RamRoleArnCredential.php" />
+        <option value="$PROJECT_DIR$/src/Core/Auth/ShaHmac1Signer.php" />
+        <option value="$PROJECT_DIR$/src/Core/Auth/ShaHmac256Signer.php" />
+        <option value="$PROJECT_DIR$/src/Core/Autoloader/Autoloader.php" />
+        <option value="$PROJECT_DIR$/src/Core/Exception/ServerException.php" />
+        <option value="$PROJECT_DIR$/src/Core/Exception/ClientException.php" />
+        <option value="$PROJECT_DIR$/src/Core/Http/HttpResponse.php" />
+        <option value="$PROJECT_DIR$/src/Core/Http/HttpHelper.php" />
+        <option value="$PROJECT_DIR$/src/Core/Auth/EcsRamRoleService.php" />
+        <option value="$PROJECT_DIR$/src/Core/Auth/RamRoleArnService.php" />
+        <option value="$PROJECT_DIR$/src/Core/Profile/IClientProfile.php" />
+        <option value="$PROJECT_DIR$/src/Core/Regions/Endpoint.php" />
+        <option value="$PROJECT_DIR$/src/Core/Regions/EndpointProvider.php" />
+        <option value="$PROJECT_DIR$/src/Core/Regions/ProductDomain.php" />
+        <option value="$PROJECT_DIR$/src/Core/AcsRequest.php" />
+        <option value="$PROJECT_DIR$/src/Core/AcsResponse.php" />
+        <option value="$PROJECT_DIR$/src/Core/IAcsClient.php" />
+        <option value="$PROJECT_DIR$/src/Core/RoaAcsRequest.php" />
+        <option value="$PROJECT_DIR$/src/Core/RpcAcsRequest.php" />
+        <option value="$PROJECT_DIR$/src/Core/DefaultAcsClient.php" />
+        <option value="$PROJECT_DIR$/src/Core/Profile/DefaultProfile.php" />
+        <option value="$PROJECT_DIR$/src/Core/Regions/EndpointConfig.php" />
+        <option value="$PROJECT_DIR$/src/Core/Regions/LocationService.php" />
+        <option value="$PROJECT_DIR$/src/Core/UnitTest/Ecs/Rquest/DescribeRegionsRequest.php" />
+        <option value="$PROJECT_DIR$/src/Core/UnitTest/BatchCompute/ListImagesRequest.php" />
+        <option value="$PROJECT_DIR$/src/Core/UnitTest/Auth/ShaHmac1SignerTest.php" />
+        <option value="$PROJECT_DIR$/src/Core/UnitTest/Auth/ShaHmac256SignerTest.php" />
+        <option value="$PROJECT_DIR$/src/Core/UnitTest/Auth/CredentialTest.php" />
+        <option value="$PROJECT_DIR$/src/Core/UnitTest/Ft/InteTest.php" />
+        <option value="$PROJECT_DIR$/src/Core/UnitTest/Ft/TestRoaApiRequest.php" />
+        <option value="$PROJECT_DIR$/src/Core/UnitTest/Ft/TestRpcApiRequest.php" />
+        <option value="$PROJECT_DIR$/src/Core/UnitTest/Http/HttpHelperTest.php" />
+        <option value="$PROJECT_DIR$/src/Core/UnitTest/Profile/DefaultProfileTest.php" />
+        <option value="$PROJECT_DIR$/src/Core/UnitTest/Regions/EndPointByLocationTest.php" />
+        <option value="$PROJECT_DIR$/src/Core/Config.php" />
+        <option value="$PROJECT_DIR$/src/Core/UnitTest/BaseTest.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="820" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github_video" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github_video" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github_video" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github_video" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github_video" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github_video" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="346257e0-c6a1-4ed5-ae07-79fd91c8fb47" name="Default" comment="" />
+      <created>1522044816860</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522044816860</updated>
+      <workItem from="1522044818173" duration="3589000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3589000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="820" extended-state="1" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21041666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288948" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/aliyun-php-sdk-vod/vod/Request/V20170321/AddEditingProjectRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="258" column="6" lean-forward="false" selection-start-line="258" selection-start-column="6" selection-end-line="258" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/Auth/EcsRamRoleCredential.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#815#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/Auth/EcsRamRoleService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/Auth/ISigner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding>
+            <element signature="e#6#815#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/Auth/RamRoleArnCredential.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#815#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/Auth/ShaHmac1Signer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#815#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/Exception/ClientException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="e#6#815#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/Http/HttpHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="61" column="38" lean-forward="false" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
+          <folding>
+            <element signature="e#6#815#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/Auth/RamRoleArnService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="999">
+          <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/Regions/endpoints.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/RpcAcsRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+          <folding>
+            <element signature="e#6#815#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/RoaAcsRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-470">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#815#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/IAcsClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#815#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/AcsRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1429">
+          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#815#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/AcsResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#815#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/Exception/ServerException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/Auth/Credential.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-544">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="e#6#815#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/Auth/AbstractCredential.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding>
+            <element signature="e#6#815#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/Profile/IClientProfile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#815#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/Regions/ProductDomain.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="e#6#815#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/Http/HttpResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#815#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/Regions/EndpointProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-214">
+          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/Autoloader/Autoloader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="e#6#815#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/Regions/LocationService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding>
+            <element signature="e#847#876#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/Auth/ShaHmac256Signer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="22" />
+          <folding>
+            <element signature="e#6#815#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/UnitTest/Auth/CredentialTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/UnitTest/Auth/ShaHmac256SignerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="40" lean-forward="false" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/UnitTest/Auth/ShaHmac1SignerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/UnitTest/BatchCompute/ListImagesRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/UnitTest/Ft/InteTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-499">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="e#40#74#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/Profile/DefaultProfile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1782">
+          <caret line="169" column="39" lean-forward="false" selection-start-line="169" selection-start-column="39" selection-end-line="169" selection-end-column="39" />
+          <folding>
+            <element signature="e#847#878#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/UnitTest/Ft/TestRpcApiRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/UnitTest/Ft/TestRoaApiRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/UnitTest/Profile/DefaultProfileTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/UnitTest/Regions/EndPointByLocationTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#123#161#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/UnitTest/Http/HttpHelperTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/UnitTest/BaseTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <element signature="e#6#815#0#PHP" expanded="false" />
+            <element signature="e#816#854#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/UnitTest/Ecs/Rquest/DescribeRegionsRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/DefaultAcsClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="40" column="49" lean-forward="false" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/UnitTest/DefaultAcsClientTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+          <folding>
+            <element signature="e#845#877#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/Regions/EndpointConfig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="77" column="8" lean-forward="true" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+          <folding>
+            <element signature="e#6#815#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+          <folding>
+            <element signature="e#6#815#0#PHP" expanded="false" />
+            <element signature="e#839#876#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/Regions/Endpoint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="e#6#815#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
