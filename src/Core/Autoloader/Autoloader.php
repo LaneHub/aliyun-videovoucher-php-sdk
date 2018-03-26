@@ -18,8 +18,8 @@
  * under the License.
  */
 namespace Video\Core\Authloader;
-
-spl_autoload_register("Autoloader::autoload");
+//spl_autoload_register("Content\Core\Autoloader\Autoloader::autoload");
+spl_autoload_register("Video\Core\Autoloader\Autoloader::autoload");
 class Autoloader
 {
     private static $autoloadPathArray = array(
