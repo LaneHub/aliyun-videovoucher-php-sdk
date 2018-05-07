@@ -9,6 +9,9 @@
             "name": "yy",
             "email": "yy@weiheinc.com"
         }
-    ]
+    ],
+    "autoload":{
+        "files":["src/aliyun-php-sdk-core/config.php"]
+    }
 }
 
