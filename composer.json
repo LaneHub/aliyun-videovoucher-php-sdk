@@ -1,5 +1,5 @@
 {
-    "name": "weiheinc/aliyun-videovoucher-php-sdk",
+    "name": "yuanling/aliyun-videovoucher-php-sdk",
     "description": "aliyun videovoucher sdk",
     "type": "library",
     "license": "MIT",
